@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GymRecord" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue_700</item>
+        <item name="colorOnSurface">@color/blue_gray_900</item>
+        <item name="colorOnSurfaceVariant">@color/blue_gray_400</item>
+        <item name="colorPrimaryContainer">@color/blue_gray_100</item>
+        <item name="colorPrimarySurface">@color/white</item>
+    </style>
+
+    <style name="ItemWorkoutTextTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">?attr/colorPrimarySurface</item>
+    </style>
+
+    <style name="ItemWorkoutTextContent">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="ItemWorkoutTextContent.Words">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="ItemWorkoutTextContent.Values">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="MaterialCard">
+        <item name="strokeColor">?attr/colorPrimaryContainer</item>
+    </style>
+
+    <style name="MaterialCard.NoStrokeWidth">
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="Card">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="Theme.GymRecord" parent="Base.Theme.GymRecord" />
+</resources>
