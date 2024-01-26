@@ -22,24 +22,25 @@ This is the repository of the live app that I uploaded in Google Play Store. The
 * Snackbar | Toast
 * Activity Back Stack | Launch Mode
 * Detecting when a user presses the Up Arrow
+* Intercepting the Back Button
 * Light and Dark Theme
 * Defining Styles | Style inheritance
 * App Icons
 
 ## Things I learned in Kotlin
-* null safety
+* variables | arrays
 * functions | overriding functions
+* if else statements | when expression
 * classes objects and constructors | class inheritance | abstract classes | anonymous classes
+* null safety
 * lateinit variables | lazy initialization
 * constants
-* object and companion object
+* object | companion object
 * serialization
 * interfaces
-* when expression
 * callbacks
-* maps
+* maps | key-value storage
 * casting
-* arrays
 * access level modifiers
 
 ## Views used
