@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+*.aab
+*.apk
+google-services.json
+.idea/compiler.xml
+.idea/deploymentTargetDropDown.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
